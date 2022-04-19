@@ -1,0 +1,21 @@
+E:\โปรเจก\Final Project\Final Project\bin\Debug\net6.0-windows\Final Project.exe
+E:\โปรเจก\Final Project\Final Project\bin\Debug\net6.0-windows\Final Project.deps.json
+E:\โปรเจก\Final Project\Final Project\bin\Debug\net6.0-windows\Final Project.runtimeconfig.json
+E:\โปรเจก\Final Project\Final Project\bin\Debug\net6.0-windows\Final Project.dll
+E:\โปรเจก\Final Project\Final Project\bin\Debug\net6.0-windows\ref\Final Project.dll
+E:\โปรเจก\Final Project\Final Project\bin\Debug\net6.0-windows\Final Project.pdb
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.csproj.AssemblyReference.cache
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final_Project.Form1.resources
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final_Project.Form2.resources
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final_Project.Form3.resources
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final_Project.Form4.resources
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.csproj.GenerateResource.cache
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.AssemblyInfoInputs.cache
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.AssemblyInfo.cs
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.csproj.CoreCompileInputs.cache
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.dll
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\ref\Final Project.dll
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.pdb
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final Project.genruntimeconfig.cache
+E:\โปรเจก\Final Project\Final Project\obj\Debug\net6.0-windows\Final_Project.Properties.Resources.resources
