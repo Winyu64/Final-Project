@@ -17,9 +17,9 @@ namespace Final_Project
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) // ไปยังหน้าขายข้าว
         {
-            if (radioButton1.Checked)
+            if (radioButton1.Checked) 
             {
                 Form3 form3 = new Form3();
                 form3.Show();
@@ -34,7 +34,7 @@ namespace Final_Project
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) // ไปยังหน้าขายน้ำ
         {
             MessageBox.Show("ปิดการทำงาน");
             Close();

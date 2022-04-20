@@ -74,10 +74,10 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -257,7 +257,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(85, 25);
             this.label17.TabIndex = 27;
-            this.label17.Text = "เงืนที่รับมา";
+            this.label17.Text = "เงินที่รับมา";
             // 
             // label16
             // 
@@ -456,36 +456,36 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(530, 50);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 25);
+            this.label5.Size = new System.Drawing.Size(58, 25);
             this.label5.TabIndex = 9;
-            this.label5.Text = "ไก่ป๊อป";
+            this.label5.Text = "ชาเย็น";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(364, 50);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 25);
+            this.label4.Size = new System.Drawing.Size(54, 25);
             this.label4.TabIndex = 8;
-            this.label4.Text = "คอหมูย่าง";
+            this.label4.Text = "กาแฟ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(195, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 25);
+            this.label3.Size = new System.Drawing.Size(47, 25);
             this.label3.TabIndex = 7;
-            this.label3.Text = "ตับปิ้ง";
+            this.label3.Text = "โกโก้";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(23, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 25);
+            this.label2.Size = new System.Drawing.Size(67, 25);
             this.label2.TabIndex = 6;
-            this.label2.Text = "ข้าวเหนียว";
+            this.label2.Text = "ชาเขียว";
             // 
             // checkBox4
             // 
@@ -558,17 +558,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(596, 319);
             this.dataGridView1.TabIndex = 77;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Final_Project.Properties.Resources.d83c488b2281599f979f77f8964ec2e0;
-            this.pictureBox1.Image = global::Final_Project.Properties.Resources.d83c488b2281599f979f77f8964ec2e0;
-            this.pictureBox1.Location = new System.Drawing.Point(28, 89);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(720, 348);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 71;
-            this.pictureBox1.TabStop = false;
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "วัน/เดือน/ปี";
@@ -592,6 +581,17 @@
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             this.Column3.Width = 200;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Final_Project.Properties.Resources.d83c488b2281599f979f77f8964ec2e0;
+            this.pictureBox1.Image = global::Final_Project.Properties.Resources.d83c488b2281599f979f77f8964ec2e0;
+            this.pictureBox1.Location = new System.Drawing.Point(28, 89);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(720, 348);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 71;
+            this.pictureBox1.TabStop = false;
             // 
             // Form4
             // 
