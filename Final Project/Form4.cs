@@ -15,7 +15,7 @@ namespace Final_Project
         public Form4()
         {
             InitializeComponent();
-            label22.Text = DateTime.Now.ToShortDateString(); //label22 = วัน/เดือน/ปี
+            label22.Text = DateTime.Now.ToShortDateString(); // label22 = วัน/เดือน/ปี
             textBox1.Text = "0";
             textBox2.Text = "0";
             textBox3.Text = "0";
@@ -88,8 +88,10 @@ namespace Final_Project
             }
         }
 
-        double a1, a2, a3, a4, b1, b2, b3, b4, sum1, sum2, sum3, sum4, price1, list1, m1, m2;
-        private void button1_Click(object sender, EventArgs e)
+        // กำหนดตัวแปลที่ต้องใช่
+        double a1, a2, a3, a4, b1, b2, b3, b4, sum1, sum2, sum3, sum4, p1, l1, m1, m2;
+
+        private void button1_Click(object sender, EventArgs e) // เป็นปุ่มคำนวนราคาของ
         {
             a1 = 0;
             a2 = 0;
@@ -152,16 +154,16 @@ namespace Final_Project
                 sum4 = b4 * a4;
             }
 
-            list1 = b1 + b2 + b3 + b4;
-            price1 = sum1 + sum2 + sum3 + sum4;
+            l1 = b1 + b2 + b3 + b4;
+            p1 = sum1 + sum2 + sum3 + sum4;
 
             // นำค่ามาใส่ textBox
-            textBox7.Text = list1.ToString();
-            textBox8.Text = price1.ToString();
+            textBox7.Text = l1.ToString();
+            textBox8.Text = p1.ToString();
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) // ปุ่มลบ
         {
             textBox1.Text = "0";
             textBox2.Text = "0";
@@ -177,19 +179,19 @@ namespace Final_Project
             numericUpDown4.Value = 0;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e) // ปุ่มคำนวนเงินทอน
         {
             if (textBox9.Text != "")
             {
                 m1 = int.Parse(textBox9.Text);
-                m2 = m1 - price1;
+                m2 = m1 - p1;
                 textBox10.Text = m2.ToString();
             }
             else
                 MessageBox.Show("กรุณาใส่ จำนวนเงิน");
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e) // ปุ่มส่งค่าจาก textBox ไปยัง dataGridView
         {
             if (textBox9.Text != "")
             {
@@ -207,13 +209,13 @@ namespace Final_Project
                 MessageBox.Show("กรุณาคิดเงินด้วยค่ะ");
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e) // ปุ่มกลับไปหน้าเมนูการขาย
         {
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
         }
-        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        private void openToolStripMenuItem_Click(object sender, EventArgs e) // ปุ่ม save ข้อมูลจาก dataGridView ไปเก็บยัง ไฟล์ CSV
         {
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Filter = "CSV(.csv)|*.csv";
@@ -261,7 +263,7 @@ namespace Final_Project
             }
         }
 
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e) // ปุ่ม open ฟล์ CSV ไปแสดงบน dataGridView
         {
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Filter = "CSV(.csv)|*.csv";

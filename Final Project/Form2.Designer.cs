@@ -73,7 +73,7 @@
             this.groupBox1.Size = new System.Drawing.Size(361, 363);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "เมนู";
+            this.groupBox1.Text = "เมนูการขาย";
             // 
             // button1
             // 

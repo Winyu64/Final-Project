@@ -127,8 +127,10 @@ namespace Final_Project
             }
         }
 
-        double a1, a2, a3, a4, a5, a6, b1, b2, b3, b4, b5, b6, sum1, sum2, sum3, sum4, sum5, sum6, price1, list1, m1, m2;
-        private void button1_Click(object sender, EventArgs e)
+        // กำหนดตัวแปลที่ต้องใช่
+        double a1, a2, a3, a4, a5, a6, b1, b2, b3, b4, b5, b6, sum1, sum2, sum3, sum4, sum5, sum6, p1, l1, m1, m2;
+
+        private void button1_Click(object sender, EventArgs e) // เป็นปุ่มคำนวนราคาของ
         {
             a1 = 0;
             a2 = 0;
@@ -221,15 +223,15 @@ namespace Final_Project
                 sum6 = b6 * a6;
             }
 
-            list1 = b1 + b2 + b3 + b4 + b5 + b6;
-            price1 = sum1 + sum2 + sum3 + sum4 + sum5 + sum6;
+            l1 = b1 + b2 + b3 + b4 + b5 + b6;
+            p1 = sum1 + sum2 + sum3 + sum4 + sum5 + sum6;
 
             // นำค่ามาใส่ textBox
-            textBox7.Text = list1.ToString();
-            textBox8.Text = price1.ToString();
+            textBox7.Text = l1.ToString();
+            textBox8.Text = p1.ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) // ปุ่มลบ
         {
             textBox1.Text = "0";
             textBox2.Text = "0";
@@ -250,12 +252,12 @@ namespace Final_Project
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e) // ปุ่มคำนวนเงินทอน
         {
             if (textBox9.Text != "")
             {
                 m1 = int.Parse(textBox9.Text);
-                m2 = m1 - price1;
+                m2 = m1 - p1;
                 textBox10.Text = m2.ToString();
             }
             else
@@ -263,7 +265,7 @@ namespace Final_Project
         }
 
         
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e) // ปุ่มส่งค่าจาก textBox ไปยัง dataGridView
         {
             if (textBox9.Text != "")
             {
@@ -281,14 +283,14 @@ namespace Final_Project
                 MessageBox.Show("กรุณาคิดเงินด้วยค่ะ");
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e) // ปุ่มกลับไปหน้าเมนูการขาย
         {
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
         }
 
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e) // ปุ่ม save ข้อมูลจาก dataGridView ไปเก็บยัง ไฟล์ CSV
         {
             if (dataGridView1.Rows.Count > 0)
             {
@@ -327,7 +329,7 @@ namespace Final_Project
             }
         }
 
-        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        private void openToolStripMenuItem_Click(object sender, EventArgs e) // ปุ่ม open ฟล์ CSV ไปแสดงบน dataGridView
         {
             OpenFileDialog openFile = new OpenFileDialog();
             openFile.Filter = "CSV(.csv)|*.csv";
