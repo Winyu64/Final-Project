@@ -176,9 +176,9 @@
             this.label22.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label22.Location = new System.Drawing.Point(1126, 48);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(27, 45);
+            this.label22.Size = new System.Drawing.Size(76, 45);
             this.label22.TabIndex = 67;
-            this.label22.Text = ".";
+            this.label22.Text = "เวลา";
             // 
             // button5
             // 

@@ -16,6 +16,7 @@ namespace Final_Project
         {
             InitializeComponent();
             label22.Text = DateTime.Now.ToShortDateString(); //label22 = วัน/เดือน/ปี
+
             textBox1.Text = "0";
             textBox2.Text = "0";
             textBox3.Text = "0";
@@ -227,8 +228,8 @@ namespace Final_Project
             p1 = sum1 + sum2 + sum3 + sum4 + sum5 + sum6;
 
             // นำค่ามาใส่ textBox
-            textBox7.Text = l1.ToString();
-            textBox8.Text = p1.ToString();
+            textBox7.Text = l1.ToString(); // จำนวน
+            textBox8.Text = p1.ToString(); // ราคาของ
         }
 
         private void button2_Click(object sender, EventArgs e) // ปุ่มลบ
@@ -270,9 +271,9 @@ namespace Final_Project
             if (textBox9.Text != "")
             {
                 int n = dataGridView1.Rows.Add();
-                dataGridView1.Rows[n].Cells[0].Value = label22.Text;
-                dataGridView1.Rows[n].Cells[1].Value = textBox7.Text;
-                dataGridView1.Rows[n].Cells[2].Value = textBox8.Text;
+                dataGridView1.Rows[n].Cells[0].Value = label22.Text;   // วัน/เดือน/ปี
+                dataGridView1.Rows[n].Cells[1].Value = textBox7.Text;  // จำนวนรายการ
+                dataGridView1.Rows[n].Cells[2].Value = textBox8.Text;  // ราคาขายออก
 
                 textBox7.Text = "";
                 textBox8.Text = "";
@@ -280,7 +281,7 @@ namespace Final_Project
                 textBox10.Text = "";
             }
             else
-                MessageBox.Show("กรุณาคิดเงินด้วยค่ะ");
+                MessageBox.Show("กรุณาชำระเงินด้วยค่ะ");
         }
 
         private void button5_Click(object sender, EventArgs e) // ปุ่มกลับไปหน้าเมนูการขาย
