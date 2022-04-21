@@ -268,7 +268,7 @@ namespace Final_Project
         
         private void button4_Click(object sender, EventArgs e) // ปุ่มส่งค่าจาก textBox ไปยัง dataGridView
         {
-            if (textBox9.Text != "")
+            if (textBox10.Text != "")
             {
                 int n = dataGridView1.Rows.Add();
                 dataGridView1.Rows[n].Cells[0].Value = label22.Text;   // วัน/เดือน/ปี
